@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./sections/NavBar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
@@ -13,7 +13,7 @@ import './App.css'
 export default function App() {
   return (
     <>
-     <BrowserRouter>
+     <HashRouter>
       <Navbar />
       <ScrollHandler />
       <Routes>
@@ -31,7 +31,7 @@ export default function App() {
           }
         />
       </Routes>
-     </BrowserRouter>
+     </HashRouter>
     </>
   );
 }

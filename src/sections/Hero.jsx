@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ProfileImg from '../assets/sanjay-photo.jpg'
+import CV from '../assets/sanjay-kumar-cv.pdf'
 
 export default function Hero() {
   return (
@@ -16,9 +17,9 @@ export default function Hero() {
         <div className="hero-buttons">
           <Link to="/#contact" className="btn">Contact Me</Link>
           <Link to="/#projects" className="btn">Projects</Link>
-          <Link to="/cv.pdf" target="_blank" download className="btn outline">
+          <a href={CV} target="_blank" download className="btn outline">
             Download CV
-          </Link>
+          </a>
         </div>
       </div>
     </section>

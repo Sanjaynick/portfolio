@@ -11,17 +11,6 @@ export default function Projects() {
       img : MovieImg
     },
 
-    { 
-      title: "Todo App", 
-      desc: "React + Local Storage", 
-      link: "#" 
-    },
-
-    { 
-      title: "Weather App", 
-      desc: "API + React", 
-      link: "#" 
-    },
   ];
 
   return (

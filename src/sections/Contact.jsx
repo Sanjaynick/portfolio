@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
+import CV from '../assets/sanjay-kumar-cv.pdf'
+
 
 export default function Contact() {
   const form = useRef();
@@ -64,9 +66,9 @@ export default function Contact() {
             GitHub
           </Link>
 
-          <Link to="/cv.pdf" target="_blank" download className="btn outline">
+          <a href={CV} target="_blank" download className="btn outline">
             Download CV
-          </Link>
+          </a>
         </div>
       </div>
     </section>
