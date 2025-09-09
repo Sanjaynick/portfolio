@@ -6,7 +6,6 @@ export default function Skills() {
     { name: "CSS", level: 75 },
     { name: "JavaScript", level: 70 },
     { name: "React", level: 60 },
-    { name: "Node.js", level: 50 },
     { name: "Git", level: 70 },
     { name: "My SQL", level: 55},
     { name: "Figma", level: 50}
