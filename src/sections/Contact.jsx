@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
-import CV from '../assets/sanjay-kumar-cv.pdf'
+import CV from '../assets/sanjay kumar-CV.pdf'
 
 
 export default function Contact() {

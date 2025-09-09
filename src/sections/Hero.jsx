@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ProfileImg from '../assets/sanjay-photo.jpg'
-import CV from '../assets/sanjay-kumar-cv.pdf'
+import CV from '../assets/sanjay kumar-CV.pdf'
 
 export default function Hero() {
   return (
