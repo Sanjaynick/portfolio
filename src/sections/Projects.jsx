@@ -6,7 +6,7 @@ export default function Projects() {
   const projects = [
     { 
       title: "Movie Review & Rating Site", 
-      desc: "React + Vite + CSS", 
+      desc: "React", 
       link: "https://sanjaynick.github.io/movie-review-site/" ,
       img : MovieImg
     },

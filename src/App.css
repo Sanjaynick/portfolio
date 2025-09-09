@@ -292,17 +292,27 @@ body {
 /*             SECTIONS          */
 /* ============================= */
 
-/* .section {
+.section {
   padding: 80px 20px;
   max-width: 1000px;
   margin: auto;
-} */
+}
 
 .section-title {
   font-size: 2rem;
   margin-bottom: 40px;
   color: var(--primary-color);
   text-align: center;
+}
+
+/* ============================= */
+/*             ABOUT            */
+/* ============================= */
+
+#about p{
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: start;
 }
 
 /* ============================= */
