@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 
 export default function Skills() {
   const skills = [
-    { name: "HTML", level: 95 },
-    { name: "CSS", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "React", level: 80 },
-    { name: "Node.js", level: 75 },
+    { name: "HTML", level: 80 },
+    { name: "CSS", level: 75 },
+    { name: "JavaScript", level: 70 },
+    { name: "React", level: 60 },
+    { name: "Node.js", level: 50 },
     { name: "Git", level: 70 },
+    { name: "My SQL", level: 55}
+    { name: "Figma", level: 50}
+
   ];
 
   const [animated, setAnimated] = useState(false);
